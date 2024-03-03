@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=1abbb6d52e86ebc4aa84b66d2ebd0918&amp;type=3#styles" />
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Art/background.png?fileID=2800000&amp;guid=0a8d82d502464044fbaa28bfa10249b6&amp;type=3#background&apos;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.46); width: 50%; align-items: center; align-self: center;">
+            <ui:Label tabindex="-1" text="Game Over" parse-escape-sequences="true" display-tooltip-when-elided="true" class="caption" style="font-size: 20px;" />
+            <ui:Label tabindex="-1" text="Result" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-result" class="caption" />
+            <ui:Label tabindex="-1" text="HighScores" parse-escape-sequences="true" display-tooltip-when-elided="true" class="caption" style="margin-top: 20px; font-size: 20px;" />
+            <ui:Label tabindex="-1" text="..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="score1" class="caption" />
+            <ui:Label tabindex="-1" text="..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="score2" class="caption" />
+            <ui:Label tabindex="-1" text="..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="score3" class="caption" />
+            <ui:Label tabindex="-1" text="..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="score4" class="caption" />
+            <ui:Label tabindex="-1" text="..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="score5" class="caption" />
+            <ui:Button text="Play Again" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play-again" class="button-text" style="flex-grow: 0; width: 80%; margin-top: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

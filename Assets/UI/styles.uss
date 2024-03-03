@@ -1,0 +1,59 @@
+.button-with-label {
+    flex-grow: 1;
+    height: 70px;
+}
+
+.button {
+    background-image: url('project://database/Assets/Art/Isometric%20Tower%20Defense%20Pack/Sprites/Towers/Archer/archer_level_1.png?fileID=2800000&guid=0a0b70cfd52e574419e377163923b946&type=3#archer_level_1');
+    width: 50px;
+    height: 50px;
+}
+
+.label-below-button {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-font: url('project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=07dc5498f25b79f40bfc77caa365f97c&type=3#NotInter-Regular');
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 10px;
+}
+
+.button-text {
+    height: 30px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 10px;
+    background-color: rgb(0, 0, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.caption {
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    align-self: center;
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=1abbb6d52e86ebc4aa84b66d2ebd0918&amp;type=3#styles" />
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.4); position: absolute; left: 0; top: 0; flex-direction: row; height: 70px;">
+        <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+            <ui:Label tabindex="-1" text="Wave 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-wave" class="caption" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-start-wave" class="button-text" style="background-image: url(&apos;project://database/Assets/Art/sub%20menu@neon.png?fileID=2800000&amp;guid=31a8ffc67aabb684cbffe0459f75161b&amp;type=3#sub menu@neon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column; margin-left: 10px; align-self: auto; align-items: stretch; justify-content: center;">
+            <ui:Label tabindex="-1" text="Credits: 200" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-credits" class="caption" style="align-self: flex-start;" />
+            <ui:Label tabindex="-1" text="Gate Health: 10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="label-health" class="caption" style="flex-grow: 1; flex-basis: initial; width: 130px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

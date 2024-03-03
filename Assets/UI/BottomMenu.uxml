@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/styles.uss?fileID=7433441132597879392&amp;guid=1abbb6d52e86ebc4aa84b66d2ebd0918&amp;type=3#styles" />
+    <ui:VisualElement name="tower-menu" style="flex-grow: 0; align-self: center; height: 70px; flex-direction: row; align-items: center; bottom: 0; position: absolute; background-color: rgba(0, 0, 0, 0.33);">
+        <ui:VisualElement name="archer-button-with-label" class="button-with-label">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="archer-button" class="button" />
+            <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="archer-label" class="label-below-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="sword-button-with-label" class="button-with-label" style="flex-grow: 1;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="sword-button" class="button" style="background-image: url(&apos;project://database/Assets/Art/Isometric%20Tower%20Defense%20Pack/Sprites/Towers/Barrack/barrack_level_1%20(1).png?fileID=2800000&amp;guid=d57dcbd3f9564554da1784d3bd7b8205&amp;type=3#barrack_level_1 (1)&apos;);" />
+            <ui:Label tabindex="-1" text="150" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sword-label" class="label-below-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="wizard-button-with-label" class="button-with-label" style="flex-grow: 1;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="wizard-button" class="button" style="background-image: url(&apos;project://database/Assets/Art/Isometric%20Tower%20Defense%20Pack/Sprites/Towers/Wizard/wizard_level_1.png?fileID=2800000&amp;guid=0528d4dc9102ed149af7e44771f55305&amp;type=3#wizard_level_1&apos;);" />
+            <ui:Label tabindex="-1" text="200" parse-escape-sequences="true" display-tooltip-when-elided="true" name="wizard-label" class="label-below-button" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="Upgrade" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-upgrade" class="button-text" />
+            <ui:Button text="Destroy" parse-escape-sequences="true" display-tooltip-when-elided="true" name="button-destroy" class="button-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
